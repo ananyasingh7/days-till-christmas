@@ -1,0 +1,26 @@
+{
+  "name": "days-till-christmas",
+  "version": "1.0.0",
+  "description": "A christmas themed website that tells you how many days are left till christmas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananyasingh7/days-till-christmas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ananyasingh7/days-till-christmas/issues"
+  },
+  "homepage": "https://github.com/ananyasingh7/days-till-christmas#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
