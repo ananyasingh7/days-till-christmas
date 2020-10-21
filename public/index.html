@@ -9,15 +9,18 @@
     <h1>Countdown Timer till Christmas</h1>
     <p id="demo"></p>
     <script>
-        let now = new Date();
         let target = new Date("December 25 2020 00:00");
-        let distance = target-now;
-        let days = Math.floor(distance/(1000*60*60*24));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-                                                    + minutes +"m " + seconds + "s " ;
+        let timer = setInterval(function() {
+            let now = new Date();
+            let distance = target-now;
+            let days = Math.floor(distance/(1000*60*60*24));
+            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                                                        + minutes +"m " + seconds + "s " ;
+        },1000);
+        
     </script>
 </body>
 
