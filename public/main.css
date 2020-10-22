@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-family: monospace;
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: auto;
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+    border-radius: 150px;
+}
+
+#snowflake {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+}
+
+
+
