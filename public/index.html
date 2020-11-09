@@ -28,20 +28,6 @@
         </div>
     </div>
     <div id="snowflake"></div>
-    <script>
-        let elem = document.getElementById("snowflake");   
-        let pos = 0;
-        let id = setInterval(frame, 10);
-        function frame() {
-            if (pos == 925) {
-                elem.style.backgroundColor = "black";
-                clearInterval(id);
-            } else {
-                pos++; 
-                elem.style.top = pos + 'px'; 
-            }
-        }
-    </script>
 </body>
 
 </html>

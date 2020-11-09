@@ -28,11 +28,22 @@ p {
 }
 
 #snowflake {
+    left: 40%;
     width: 20px;
     height: 20px;
     position: absolute;
     background-color: white;
     border-radius: 100px;
+    animation: MoveUpDown 17s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 1000px;
+    }
+    100% {
+        bottom: 0px;
+    }
 }
 
 
