@@ -12,22 +12,11 @@ p {
     font-size: large;
     font-family: monospace;
     text-align: center;
+    font-weight: bolder;
 }
 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 45%;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: auto;
-    text-align: center;
-    border-style: groove;
-    border-color: white;
-    border-radius: 150px;
-}
 
-#snowflake {
+#snowflake1 {
     left: 40%;
     width: 20px;
     height: 20px;
@@ -37,6 +26,58 @@ p {
     animation: MoveUpDown 17s linear infinite;
 }
 
+#snowflake2 {
+    left: 20%;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 10s linear infinite;
+}
+
+#snowflake3 {
+    left: 15%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 14s linear infinite;
+}
+
+#snowflake4 {
+    left: 5%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 19s linear infinite;
+}
+
+#snowflake5 {
+    left: 9%;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 10s linear infinite;
+}
+
+#snowflake6 {
+    left: 19%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 25s linear infinite;
+}
+
+
+
 @keyframes MoveUpDown {
     0%, 100% {
         bottom: 1000px;
@@ -44,6 +85,19 @@ p {
     100% {
         bottom: 0px;
     }
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: auto;
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+    border-radius: 10px;
 }
 
 
