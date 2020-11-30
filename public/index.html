@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Days till Christmas</title>
 </head>
 <body>
+    <embed src="jingleBells.mp3" loop="true" autostart="true" width="2"height="0">
     <div class="border">
         <div class="center">
             <img src="https://media.giphy.com/media/l1AvyLF0Sdg6wSZZS/giphy.gif">
@@ -27,6 +28,14 @@
         </script>
             <h1>until Christmas!</h1>
         </div>
+        <audio src="http://www.amclassical.com/mp3/amclassical_jingle_bells.mp3"></audio>
+        <script>
+            window.addEventListener("DOMContentLoaded", event => {
+            const audio = document.querySelector("audio");
+            audio.volume = 1;
+            audio.play();
+            });
+        </script>
     </div>
     <div id="snowflake1"></div>
     <div id="snowflake2"></div>

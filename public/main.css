@@ -7,6 +7,7 @@ h1 {
     text-align: center;
 }
 
+
 p {
     color: white;
     font-size: large;
@@ -17,7 +18,7 @@ p {
 
 
 #snowflake1 {
-    left: 40%;
+    left: 25%;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -76,6 +77,16 @@ p {
     animation: MoveUpDown 25s linear infinite;
 }
 
+#snowflake7 {
+    right: 19%;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 22s linear infinite;
+}
+
 
 
 @keyframes MoveUpDown {
@@ -86,6 +97,7 @@ p {
         bottom: 0px;
     }
 }
+
 
 .center {
     position: absolute;
