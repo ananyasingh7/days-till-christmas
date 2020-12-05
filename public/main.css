@@ -87,6 +87,57 @@ p {
     animation: MoveUpDown 22s linear infinite;
 }
 
+#snowflake8 {
+    right: 21%;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 18s linear infinite;
+}
+
+#snowflake7 {
+    right: 10%;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 14s linear infinite;
+}
+
+#snowflake9 {
+    right: 20%;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 10s linear infinite;
+}
+
+#snowflake10 {
+    right: 9%;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 10s linear infinite;
+}
+
+#snowflake11 {
+    right: 15%;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-color: white;
+    border-radius: 100px;
+    animation: MoveUpDown 25s linear infinite;
+}
+
+
 
 
 @keyframes MoveUpDown {
